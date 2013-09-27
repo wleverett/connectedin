@@ -34,6 +34,8 @@ end
 
 gem 'compass-rails' # you need this or you get an err
 
+gem 'hirb'
+
 gem 'zurb-foundation', '~> 4.0.0'
 
 # Use ActiveModel has_secure_password
