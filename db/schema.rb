@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130927040107) do
+ActiveRecord::Schema.define(version: 20130928224050) do
 
   create_table "students", force: true do |t|
     t.text     "username"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20130927040107) do
     t.string   "profile_pic"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "facebook_page"
   end
 
 end
