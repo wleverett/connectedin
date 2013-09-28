@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130928224050) do
+ActiveRecord::Schema.define(version: 20130928233200) do
 
   create_table "students", force: true do |t|
     t.text     "username"
@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20130928224050) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "facebook_page"
+    t.string   "hometown"
   end
 
 end
